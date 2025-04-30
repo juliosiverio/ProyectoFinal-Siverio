@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto Final - Conversor de Monedas</title>
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Librerías externas -->
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+  <h1>Conversor de Monedas</h1>
+
+  <div class="conversor">
+    <input type="number" id="monto" placeholder="Ingresa el monto">
+    <select id="origen"></select>
+    <select id="destino"></select>
+    <button id="convertir">Convertir</button>
+    <h2 id="resultado"></h2>
+  </div>
+
+  <div class="historial">
+    <h3>Historial de conversiones</h3>
+    <ul id="historial"></ul>
+    <button id="limpiar">Limpiar Historial</button>
+  </div>
+
+  <script src="js/api.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
+
+

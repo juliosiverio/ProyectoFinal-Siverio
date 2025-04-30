@@ -1,0 +1,8 @@
+[
+    { "nombre": "Dólar estadounidense", "valor": 1 },
+    { "nombre": "Euro", "valor": 0.92 },
+    { "nombre": "Peso colombiano", "valor": 4000 },
+    { "nombre": "Bitcoin", "valor": 0.000025 },
+    { "nombre": "Sol peruano", "valor": 3.8 }
+  ]
+
